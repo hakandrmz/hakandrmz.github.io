@@ -548,7 +548,7 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
 }
 
@@ -5835,7 +5835,7 @@ a.bg-dark:focus, a.bg-dark:hover {
 }
 
 .d-none {
-  display: none !important;
+  display: inline-block !important;
 }
 
 .d-inline {
