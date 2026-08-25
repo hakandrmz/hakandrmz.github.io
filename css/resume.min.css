@@ -122,6 +122,12 @@ h2::after {
   border-radius: 0.875rem;
   box-shadow: var(--shadow-sm);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  color: inherit;
+}
+
+a.card-custom {
+  text-decoration: none !important;
+  display: block;
 }
 
 .card-custom:hover {
