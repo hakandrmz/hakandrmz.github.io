@@ -14,24 +14,18 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Bootstrap core CSS -->
+  <!-- CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-  
-  <!-- Custom styles -->
   <link href="css/resume.min.css" rel="stylesheet">
 </head>
 
 <body id="page-top">
-  <!-- Background Blobs -->
-  <div class="bg-blobs">
-    <div class="blob blob-1"></div>
-    <div class="blob blob-2"></div>
-  </div>
-
-  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="sideNav">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger d-lg-none" href="#page-top">Hakan Durmaz</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -59,47 +53,47 @@
     <!-- About Section -->
     <section class="resume-section d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Hakan <span class="text-primary">Durmaz</span></h1>
-        <div class="subheading mb-4 text-muted" style="font-size: 1.5rem; font-weight: 600;">
+        <h1 class="mb-1">Hakan <span class="text-primary">Durmaz</span></h1>
+        <div class="subheading mb-4 text-muted" style="font-size: 1.35rem; font-weight: 600;">
           I am a <span class="typing text-primary"></span>
         </div>
         
         <!-- Contact Details Card -->
-        <div class="glass-card p-4 mb-5" style="max-width: 650px;">
-          <div class="row text-muted" style="font-size: 0.95rem; row-gap: 0.75rem;">
+        <div class="card-custom p-4 mb-4" style="max-width: 620px;">
+          <div class="row" style="font-size: 0.95rem; row-gap: 0.75rem;">
             <div class="col-sm-6 d-flex align-items-center">
-              <i class="fas fa-envelope text-primary mr-3" style="font-size: 1.2rem; width: 20px;"></i>
-              <a href="mailto:durmazhakan@icloud.com" class="text-muted text-decoration-none">durmazhakan@icloud.com</a>
+              <i class="fas fa-envelope text-primary mr-3" style="font-size: 1.15rem; width: 20px;"></i>
+              <a href="mailto:durmazhakan@icloud.com" class="text-secondary text-decoration-none">durmazhakan@icloud.com</a>
             </div>
             <div class="col-sm-6 d-flex align-items-center">
-              <i class="fas fa-map-marker-alt text-primary mr-3" style="font-size: 1.2rem; width: 20px;"></i>
-              <span class="text-muted">Istanbul, Turkey</span>
+              <i class="fas fa-map-marker-alt text-primary mr-3" style="font-size: 1.15rem; width: 20px;"></i>
+              <span class="text-secondary">Istanbul, Turkey</span>
             </div>
           </div>
         </div>
 
-        <p class="lead mb-5 text-muted" style="line-height: 1.8; text-align: justify;">
+        <p class="lead mb-4 text-muted" style="line-height: 1.8; text-align: justify; font-size: 1.05rem;">
           Results-driven Backend Software Engineer with over 4 years of dedicated experience specializing in Java, Spring Boot, Spring Cloud, and Hibernate. Proven track record in the finance and banking sectors, delivering scalable web applications, RESTful APIs, and microservices. AWS Certified Developer - Associate with hands-on expertise in cloud-native architectures (RDS, ECS, S3, CloudWatch), Docker, and CI/CD pipelines (Git, Jenkins, Maven). Adept at modernizing legacy systems and managing complex data infrastructure using PostgreSQL, MongoDB, Redis, Kafka, and RabbitMQ within Agile environments.
         </p>
         
-        <div class="social-icons d-flex gap-3 mb-5">
-          <a href="https://www.linkedin.com/in/hdurmaz/" class="glass-card p-3 text-white" target="_blank" style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">
+        <div class="social-icons mb-4">
+          <a href="https://www.linkedin.com/in/hdurmaz/" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <i class="fab fa-linkedin-in"></i>
           </a>
-          <a href="https://github.com/hakandrmz" class="glass-card p-3 text-white" target="_blank" style="width: 50px; height: 50px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none;">
+          <a href="https://github.com/hakandrmz" class="social-icon" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
             <i class="fab fa-github"></i>
           </a>
         </div>
         
         <div class="cta-buttons">
-          <a href="mailto:durmazhakan@icloud.com" class="btn btn-primary btn-lg px-4 py-3 rounded-pill" style="background: linear-gradient(to right, #3b82f6, #8b5cf6); border: none; font-weight: 600;">
+          <a href="mailto:durmazhakan@icloud.com" class="btn btn-primary px-4 py-2 rounded-pill">
             Get In Touch
           </a>
         </div>
       </div>
     </section>
 
-    <hr class="m-0" style="border-top: 1px solid var(--glass-border);">
+    <hr>
 
     <!-- Experience Section -->
     <section class="resume-section" id="experience">
@@ -107,23 +101,23 @@
         <h2 class="mb-5">Experience</h2>
 
         <!-- BGTS Card -->
-        <div class="glass-card p-4 mb-5">
+        <div class="card-custom p-4 mb-4">
           <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
             <div class="flex-grow-1">
-              <h3 class="mb-0">Java Developer</h3>
-              <div class="subheading text-primary mb-2" style="font-weight: 600;">BGTS Finansal Teknoloji ve Yazılım A.Ş. (Finance Sector)</div>
+              <h3 class="mb-0 h4 font-weight-bold">Java Developer</h3>
+              <div class="text-primary mb-2" style="font-weight: 600;">BGTS Finansal Teknoloji ve Yazılım A.Ş. (Finance Sector)</div>
             </div>
             <div class="text-md-right">
-              <span class="text-muted" style="font-weight: 500;">June 2025 - Present</span>
+              <span class="text-muted" style="font-weight: 500; font-size: 0.95rem;">June 2025 - Present</span>
             </div>
           </div>
-          <ul class="text-muted pl-4" style="line-height: 1.8;">
+          <ul class="text-muted pl-4 mb-4" style="line-height: 1.8;">
             <li class="mb-2">Develop and maintain scalable backend enterprise applications for the finance sector using Java and Spring Boot.</li>
             <li class="mb-2">Contributed to the modernization of Garanti Bank’s tax payment systems by refactoring legacy Java codebases into modern Spring Boot microservices.</li>
             <li class="mb-2">Designed and implemented features to enhance application security and data integrity, including custom logic to block user verification from temporary mail generators.</li>
             <li class="mb-2">Analyze business requirements to implement reliable software solutions and improve application performance, code quality, and system stability.</li>
           </ul>
-          <div class="mt-4">
+          <div class="mt-3">
             <span class="tech-badge">Java 17</span>
             <span class="tech-badge">Spring Boot</span>
             <span class="tech-badge">Microservices</span>
@@ -135,23 +129,23 @@
         </div>
 
         <!-- Atmosware Card -->
-        <div class="glass-card p-4 mb-5">
+        <div class="card-custom p-4 mb-4">
           <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
             <div class="flex-grow-1">
-              <h3 class="mb-0">Java Software Engineer</h3>
-              <div class="subheading text-primary mb-2" style="font-weight: 600;">Atmosware Teknoloji Eğitim ve Danışmanlık A.Ş.</div>
+              <h3 class="mb-0 h4 font-weight-bold">Java Software Engineer</h3>
+              <div class="text-primary mb-2" style="font-weight: 600;">Atmosware Teknoloji Eğitim ve Danışmanlık A.Ş.</div>
             </div>
             <div class="text-md-right">
-              <span class="text-muted" style="font-weight: 500;">May 2022 - June 2025</span>
+              <span class="text-muted" style="font-weight: 500; font-size: 0.95rem;">May 2022 - June 2025</span>
             </div>
           </div>
-          <ul class="text-muted pl-4" style="line-height: 1.8;">
+          <ul class="text-muted pl-4 mb-4" style="line-height: 1.8;">
             <li class="mb-2">Developed and maintained secure backend applications using Spring Boot, Spring Data JPA, and Spring Security.</li>
             <li class="mb-2">Designed and implemented cloud-based solutions leveraging AWS (RDS, ECS, CloudWatch, S3) and Docker for containerized deployments.</li>
             <li class="mb-2">Managed distributed systems, messaging infrastructure, and data management using PostgreSQL, MongoDB, Redis, Hazelcast, Kafka, and RabbitMQ.</li>
             <li class="mb-2">Improved system reliability and application performance through rigorous unit testing and debugging practices within Agile/Scrum workflows.</li>
           </ul>
-          <div class="mt-4">
+          <div class="mt-3">
             <span class="tech-badge">Spring Boot</span>
             <span class="tech-badge">Spring Data JPA</span>
             <span class="tech-badge">Spring Security</span>
@@ -169,21 +163,21 @@
         </div>
 
         <!-- Logo Card -->
-        <div class="glass-card p-4">
+        <div class="card-custom p-4">
           <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
             <div class="flex-grow-1">
-              <h3 class="mb-0">Software Engineer (Part-Time)</h3>
-              <div class="subheading text-primary mb-2" style="font-weight: 600;">Logo Yazılım San. Tic. A.Ş.</div>
+              <h3 class="mb-0 h4 font-weight-bold">Software Engineer (Part-Time)</h3>
+              <div class="text-primary mb-2" style="font-weight: 600;">Logo Yazılım San. Tic. A.Ş.</div>
             </div>
             <div class="text-md-right">
-              <span class="text-muted" style="font-weight: 500;">July 2021 - May 2022</span>
+              <span class="text-muted" style="font-weight: 500; font-size: 0.95rem;">July 2021 - May 2022</span>
             </div>
           </div>
-          <ul class="text-muted pl-4" style="line-height: 1.8;">
+          <ul class="text-muted pl-4 mb-4" style="line-height: 1.8;">
             <li class="mb-2">Designed and automated corporate business workflows using Logo Flow, a low-code Business Process Management (BPM) platform.</li>
             <li class="mb-2">Digitalized paper-based processes by creating dynamic workflow models, automated approval mechanisms, and digital forms to increase operational efficiency.</li>
           </ul>
-          <div class="mt-4">
+          <div class="mt-3">
             <span class="tech-badge">Logo Flow BPM</span>
             <span class="tech-badge">Workflow Automation</span>
             <span class="tech-badge">Form Design</span>
@@ -193,7 +187,7 @@
       </div>
     </section>
 
-    <hr class="m-0" style="border-top: 1px solid var(--glass-border);">
+    <hr>
 
     <!-- Skills Section -->
     <section class="resume-section" id="skills">
@@ -202,35 +196,35 @@
         
         <div class="row">
           <div class="col-md-6 mb-4">
-            <div class="glass-card p-4 h-100">
-              <h4 class="mb-4 text-primary"><i class="fas fa-code mr-2"></i> Backend & Frameworks</h4>
+            <div class="card-custom p-4 h-100">
+              <h3 class="h5 mb-4 text-primary"><i class="fas fa-code mr-2"></i> Backend & Frameworks</h3>
               <div class="d-flex flex-wrap align-items-center mb-3">
                 <i class="devicon-java-plain colored fs-1 m-2" title="Java" style="font-size: 2.5rem;"></i>
                 <i class="devicon-spring-plain colored fs-1 m-2" title="Spring" style="font-size: 2.5rem;"></i>
                 <i class="devicon-hibernate-plain colored fs-1 m-2" title="Hibernate" style="font-size: 2.5rem;"></i>
               </div>
-              <ul class="text-muted pl-3" style="font-size: 0.95rem;">
-                <li>Java, Spring Boot, Spring Cloud, Spring Data JPA, Spring Security, Hibernate</li>
-              </ul>
+              <p class="text-muted mb-0" style="font-size: 0.95rem; line-height: 1.7;">
+                Java, Spring Boot, Spring Cloud, Spring Data JPA, Spring Security, Hibernate
+              </p>
             </div>
           </div>
           <div class="col-md-6 mb-4">
-            <div class="glass-card p-4 h-100">
-              <h4 class="mb-4 text-primary"><i class="fas fa-cloud mr-2"></i> Cloud, DevOps & Tools</h4>
+            <div class="card-custom p-4 h-100">
+              <h3 class="h5 mb-4 text-primary"><i class="fas fa-cloud mr-2"></i> Cloud, DevOps & Tools</h3>
               <div class="d-flex flex-wrap align-items-center mb-3">
                 <i class="devicon-amazonwebservices-plain-wordmark colored fs-1 m-2" title="AWS" style="font-size: 2.5rem;"></i>
                 <i class="devicon-docker-plain colored fs-1 m-2" title="Docker" style="font-size: 2.5rem;"></i>
                 <i class="devicon-jenkins-plain colored fs-1 m-2" title="Jenkins" style="font-size: 2.5rem;"></i>
                 <i class="devicon-git-plain colored fs-1 m-2" title="Git" style="font-size: 2.5rem;"></i>
               </div>
-              <ul class="text-muted pl-3" style="font-size: 0.95rem;">
-                <li>AWS (RDS, ECS, S3, CloudWatch), Docker, CI/CD (Git, Jenkins, Maven)</li>
-              </ul>
+              <p class="text-muted mb-0" style="font-size: 0.95rem; line-height: 1.7;">
+                AWS (RDS, ECS, S3, CloudWatch), Docker, CI/CD (Git, Jenkins, Maven)
+              </p>
             </div>
           </div>
           <div class="col-md-12 mb-4">
-            <div class="glass-card p-4 h-100">
-              <h4 class="mb-4 text-primary"><i class="fas fa-database mr-2"></i> Distributed Systems & Databases</h4>
+            <div class="card-custom p-4 h-100">
+              <h3 class="h5 mb-4 text-primary"><i class="fas fa-database mr-2"></i> Distributed Systems & Databases</h3>
               <div class="d-flex flex-wrap align-items-center mb-3">
                 <i class="devicon-postgresql-plain colored fs-1 m-2" title="PostgreSQL" style="font-size: 2.5rem;"></i>
                 <i class="devicon-mongodb-plain colored fs-1 m-2" title="MongoDB" style="font-size: 2.5rem;"></i>
@@ -238,35 +232,34 @@
                 <i class="devicon-apachekafka-original colored fs-1 m-2" title="Kafka" style="font-size: 2.5rem;"></i>
                 <i class="devicon-rabbitmq-original colored fs-1 m-2" title="RabbitMQ" style="font-size: 2.5rem;"></i>
               </div>
-              <ul class="text-muted pl-3" style="font-size: 0.95rem;">
-                <li>PostgreSQL, MongoDB, Redis, Hazelcast, Kafka, RabbitMQ</li>
-                <li>Sleek integration of messaging queues & key-value cache layer</li>
-              </ul>
+              <p class="text-muted mb-0" style="font-size: 0.95rem; line-height: 1.7;">
+                PostgreSQL, MongoDB, Redis, Hazelcast, Kafka, RabbitMQ — integration of messaging queues & caching layers.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <hr class="m-0" style="border-top: 1px solid var(--glass-border);">
+    <hr>
 
     <!-- Education & Certs -->
     <section class="resume-section" id="education">
       <div class="w-100">
         <h2 class="mb-5">Education & Certifications</h2>
         
-        <div class="glass-card p-4 mb-4 d-flex justify-content-between align-items-center flex-column flex-sm-row">
+        <div class="card-custom p-4 mb-4 d-flex justify-content-between align-items-center flex-column flex-sm-row">
           <div class="text-center text-sm-left mb-2 mb-sm-0">
-            <h3 class="mb-0">Bachelor of Computer Engineering</h3>
-            <div class="subheading text-primary">Canakkale 18 Mart University</div>
+            <h3 class="mb-1 h5 font-weight-bold">Bachelor of Computer Engineering</h3>
+            <div class="text-primary" style="font-weight: 600;">Canakkale 18 Mart University</div>
           </div>
           <div class="text-center text-sm-right text-muted" style="font-weight: 500;">Sept 2016 - Nov 2021</div>
         </div>
 
-        <div id="certifications" class="glass-card p-4 border-primary d-flex justify-content-between align-items-center flex-column flex-sm-row" style="border-left: 5px solid var(--primary-color);">
+        <div id="certifications" class="card-custom p-4 d-flex justify-content-between align-items-center flex-column flex-sm-row" style="border-left: 4px solid var(--primary-color);">
           <div class="text-center text-sm-left mb-2 mb-sm-0">
-            <h3 class="mb-0">AWS Certified Developer - Associate</h3>
-            <div class="subheading text-primary">Amazon Web Services</div>
+            <h3 class="mb-1 h5 font-weight-bold">AWS Certified Developer - Associate</h3>
+            <div class="text-primary" style="font-weight: 600;">Amazon Web Services</div>
           </div>
           <div class="text-center text-sm-right text-muted" style="font-weight: 500;">December 2024</div>
         </div>
